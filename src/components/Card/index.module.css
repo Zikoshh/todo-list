@@ -1,0 +1,28 @@
+.card {
+  width: 300px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  border: 2px solid blue;
+  border-radius: 4px;
+}
+
+.title {
+  margin: 0;
+}
+
+.button_delete {
+  width: 30px;
+  height: 30px;
+  padding: 0;
+  cursor: pointer;
+  background-image: url('./assets/trash.svg');
+  background-position: center;
+  background-color: white;
+  border: none;
+}
+
+.button_delete:hover {
+  opacity: 0.8;
+}

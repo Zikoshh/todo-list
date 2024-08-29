@@ -1,0 +1,12 @@
+.form {
+  display: flex;
+  justify-content: center;
+}
+
+.input_query {
+  width: 300px;
+  padding: 10px;
+  border: 2px solid blue;
+  border-radius: 4px;
+  outline: none;
+}

@@ -1,0 +1,24 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 1440px;
+  width: 100%;
+  margin: 0 auto;
+  row-gap: 20px;
+  padding-top: 20px;
+}
+
+.button_add {
+  width: 50px;
+  height: 50px;
+  cursor: pointer;
+  background-image: url('./assets/add.svg');
+  background-position: center;
+  background-color: white;
+  border: none;
+}
+
+.button_add:hover {
+  opacity: 0.8;
+}
